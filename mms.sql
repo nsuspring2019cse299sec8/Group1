@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 25, 2019 at 07:03 PM
+-- Generation Time: Mar 07, 2019 at 11:10 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.1
 
@@ -40,8 +40,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`ID`, `USERNAME`, `GMAIL`, `PASSWORD`) VALUES
-(2, 'admin', 'admin1234@gmail.com', '1234'),
-(3, 'Anik', 'anikulislam123@gmail.com', '78910');
+(2, 'admin', 'admin1234@gmail.com', '1234');
 
 -- --------------------------------------------------------
 
@@ -63,8 +62,11 @@ CREATE TABLE `product_insert_table` (
 --
 
 INSERT INTO `product_insert_table` (`ID`, `PRODUCT_NAME`, `PRODUCT_ID`, `PRODUCT_PRICE`, `PRODUCT_UPDATE_PRICE`, `IMAGE`) VALUES
-(7, 'i-phone-6', 258963, '55000', '50000', 'i-phone6.PNG'),
-(8, 'Nokia 10', 258741, '13000', '13000', 'nokia.PNG');
+(11, 'i-phone-10s', 159, '99990', '85000', 'samsang 01.PNG'),
+(12, 'i-phone-6', 247, '65000', '60000', 'i phone 5s.PNG'),
+(13, 'i-phone-x', 368, '99000', '95000', 'i phone x.PNG'),
+(14, 'Samsung-J7', 785, '22000', '21500', 'samsang 01.PNG'),
+(15, 'Samsung-m10', 458, '10999', '10400', 'i phone x.PNG');
 
 --
 -- Indexes for dumped tables
@@ -90,13 +92,13 @@ ALTER TABLE `product_insert_table`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `product_insert_table`
 --
 ALTER TABLE `product_insert_table`
-  MODIFY `ID` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `ID` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
