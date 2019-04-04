@@ -38,7 +38,11 @@ a
  
     <div class="form-group">
       <label for="PRODUCT NAME">Enter Product Search Key:</label>
+
+      <input type="text" class="form-control" name="p_name" required="required">
+
       <input type="text" class="form-control" name="p_name" required="required"><br>
+
 	  <td colspan="2"><input type="submit" name="submit" value="Search"/></td>
     </div>
 	
@@ -49,15 +53,21 @@ a
 <table align="center" width="10%" border="5" style="margin-top:10px" >
 
          <tr >
+
+	              <th>PRODUCT SERIAL NO</th>		
+                      <th>PRODUCT ID NO</th>			 
+                      <th>PRODUCT NAME</th>
+
 			  <th>PRODUCT SERIAL NO</th>		
               <th>PRODUCT ID NO</th>			 
               <th>PRODUCT NAME</th>
+
 		      <th>PRODUCT PRICE</th>
 		      <th>PRODUCT UPDATE PRICE</th>
 		      <th>PRODUCT IMAGE</th>
 		      <th>ACTION</th>
          </tr>
-		 
+
 <?php
 
         if(isset($_POST['submit']))
@@ -111,6 +121,7 @@ a
     }
 
 ?>
+
 
 
 
