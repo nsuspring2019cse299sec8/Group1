@@ -8,5 +8,8 @@
 
 
 Github Project Link- https://github.com/nsuspring2019cse299sec8/Group1
+
 Trello Board Link- https://trello.com/b/oxud9kNK/spring2019cse299section08group01
+
 Slack Channel Link- https://spring19cse299group1.slack.com/messages/CGFD29RT9/
+
